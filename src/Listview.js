@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import left_arrow from './left_arrow.png';
+import { arrows } from "./Icons/Resources";
 
 const Container = styled.div`
     width: 100%;
@@ -63,8 +63,8 @@ const ListView = () => {
         <Container>
             <NavBot style={{ textAlign: "center"}}>                 
             <img
-                    src={left_arrow}
-                    alt="융슝이"
+                    src={arrows.left_arrow}
+                    alt="왼쪽 화살표"
                     style={{ width: "18px", float: "left", marginTop: "4px"}}
                   ></img>보낸 편지함</NavBot>
             <BoardContainer>
