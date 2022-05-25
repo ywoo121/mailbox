@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Setting from './Setting';
+import SignUp from './SignUp';
+import SignIn from './SignIn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Setting />
+    <SignIn />
   </React.StrictMode>
 );
 

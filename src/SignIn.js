@@ -123,7 +123,7 @@ const Btn = styled.div`
   background-color: #d2d2d2
 `;
 
-const SignUp = () => {
+const SignIn = () => {
     return (
         <Container>
             <LogoDiv>
@@ -146,5 +146,5 @@ const SignUp = () => {
         
     )
   };
-  export default SignUp;
+  export default SignIn;
   
